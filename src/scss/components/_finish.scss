@@ -1,0 +1,20 @@
+.finish {
+    display: none;
+    &__logo {
+        margin-bottom: 40px;
+    }
+    &__btn {
+        display: flex;
+        align-items: center;
+        padding: 18px 35px;
+        background-color: $red;
+        max-width: 340px;
+        color: $white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    &__link {
+        margin-left: 10px;
+    }
+}

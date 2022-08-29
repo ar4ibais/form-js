@@ -1,0 +1,13 @@
+@import './fonts';
+@import './global';
+@import './vars';
+@import './reset';
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/form";
+@import "./components/checkbox";
+@import "./components/interest";
+@import "./components/about";
+@import "./components/finish";
+
+// Основыные стили

@@ -1,0 +1,74 @@
+@import './vars';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    display: inline-block;
+    margin-bottom: 90px;
+}
+
+.section {
+    &__title {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 56px;
+        color: $blue;
+        margin-bottom: 10px;
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 400;
+        color: $grey;
+        margin-bottom: 40px;
+        max-width: 600px;
+    }
+}
+
+.btn {
+    background-color: $red;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    transition: all .2s;
+    svg {
+        transition: all .2s;
+    }
+    &:hover {
+        background-color: rgb(195, 5, 5);
+        svg {
+            transform: translateX(10px);
+        }
+    }
+}
+
+.link {
+    margin-top: auto;
+    font-size: 18px;
+    line-height: 20px;
+    color: $grey;
+    font-weight: 400;
+    a {
+        color: $red;
+        font-weight: 500;
+    }
+}
+
+.container {
+    padding: 40px 200px;
+}
+
+.show {
+    display: inline-block !important;
+}
+
+.hide {
+    display: none !important;
+}

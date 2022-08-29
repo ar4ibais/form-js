@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    &__item {
+        flex: 0 1 50%;
+        &.image__item {
+            background-image: url(../../img/bg.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        &.info__item {
+            padding: 65px 100px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__title {
+        margin-bottom: 10px;
+    }
+    &__text {
+        margin-bottom: 40px;
+    }
+    &__btn {
+        width: 250px;
+    }
+}
